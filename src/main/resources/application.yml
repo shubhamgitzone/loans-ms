@@ -32,3 +32,5 @@ management:
     web:
       exposure:
         include: "*" #tells SB actuator to enable and expose all management endpoint supported by SB actuate
+        # instead of *, use busRefresh for spring cloud bus
+        #             and use refresh for actuator refresh
